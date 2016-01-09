@@ -1,0 +1,34 @@
+<div>
+    <div class="popover-section-head">{{rateCtrl.title}}</div>
+    <div class="btn-toolbar popover-btn-group">
+        <div class="btn-group-sm ">
+            <label class="pull-left">Strength</label>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass(1)" ng-click="rateCtrl.selectStrength(1)">1</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass(2)" ng-click="rateCtrl.selectStrength(2)">2</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass('3-')" ng-click="rateCtrl.selectStrength('3-')">3-</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass(3)" ng-click="rateCtrl.selectStrength(3)">3</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass('3+')" ng-click="rateCtrl.selectStrength('3+')">3+</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass('4-')" ng-click="rateCtrl.selectStrength('4-')">4-</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass(4)" ng-click="rateCtrl.selectStrength(4)">4</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass('4+')" ng-click="rateCtrl.selectStrength('4+')">4+</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass('5-')" ng-click="rateCtrl.selectStrength('5-')">5-</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getStrengthClass(5)" ng-click="rateCtrl.selectStrength(5)">5</a>
+        </div>
+    </div>
+    <div class="btn-toolbar popover-btn-group">
+        <div class="btn-group-sm">
+            <label class="pull-left">Reflex</label>
+            <a class="btn btn-default" ng-class="rateCtrl.getReflexClass(0)" ng-click="rateCtrl.selectReflex(0)">0</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getReflexClass('1+')" ng-click="rateCtrl.selectReflex('1+')">1+</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getReflexClass('2+')" ng-click="rateCtrl.selectReflex('2+')">2+</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getReflexClass('3+')" ng-click="rateCtrl.selectReflex('3+')">3+</a>
+            <a class="btn btn-default" ng-class="rateCtrl.getReflexClass('4+')" ng-click="rateCtrl.selectReflex('4+')">4+</a>
+        </div>
+    </div>
+</div>
+
+<script>
+//    function test(index) {
+//        alert(index);
+//    }
+</script>

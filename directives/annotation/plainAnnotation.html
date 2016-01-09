@@ -1,0 +1,61 @@
+<style type="text/css">
+    .popover-title { font-size: 15px; width: 700px; }
+    .popover-content { font-size: 12px; width: 700px;}
+</style>
+
+
+<div class="annotated">
+    <img ng-src="{{plainCtrl.imgUrl}}" alt="avatar"
+        style="max-height: 580px;"  class="img-responsive"/>
+
+    <ul>
+        <li ng-repeat="anot in plainCtrl.annotations"
+            ng-class="{{anot.class}}"
+            ng-style="{{anot.coord}}"
+            class="pop"
+            data-container="body" data-toggle="popover" data-placement="right"
+        ></li>
+    </ul>
+</div>
+
+<!-- Popover 2 hidden content -->
+<div id="popoverExampleTwoHiddenContent" style="display: none" class="popover-content">
+    <div class=" row content popover-content">
+        <div class="col-sm-6">
+            <a href="#" class="myButton">0</a>
+            <a href="#" class="myButton">1</a>
+            <a href="#" class="myButton">2</a>
+            <a href="#" class="myButton">3-</a>
+            <a href="#" class="myButton">3</a>
+            <a href="#" class="myButton">3+</a>
+            <a href="#" class="myButton">4-</a>
+            <a href="#" class="myButton">4</a>
+            <a href="#" class="myButton">4+</a>
+            <a href="#" class="myButton">5-</a>
+            <a href="#" class="myButton">5</a>
+        </div>
+        <div class="col-sm-6">
+            <a href="#" class="myButton">0</a>
+            <a href="#" class="myButton">1</a>
+            <a href="#" class="myButton">2</a>
+            <a href="#" class="myButton">3-</a>
+            <a href="#" class="myButton">3</a>
+            <a href="#" class="myButton">3+</a>
+            <a href="#" class="myButton">4-</a>
+            <a href="#" class="myButton">4</a>
+            <a href="#" class="myButton">4+</a>
+            <a href="#" class="myButton">5-</a>
+            <a href="#" class="myButton">5</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Popover 2 hidden title -->
+<div id="popoverExampleTwoHiddenTitle" class="popover-title" style="display: none">
+    <div class="">
+        <h3>
+            Data
+        </h3>
+    </div>
+</div>

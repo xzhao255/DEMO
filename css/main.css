@@ -1,0 +1,22 @@
+/*html {*/
+    /*font-family: Arial;*/
+    /*font-size: 200px;*/
+/*}*/
+body {
+    background-color: #F0F0F0;
+    font-family: "Segoe UI";
+}
+
+.sm-margin{
+    margin: 5px;
+}
+
+
+.navbar-font {
+    font-size: 130%;
+}
+
+.margin-right-md {
+    margin-right: 15px;
+}
+

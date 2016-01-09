@@ -1,0 +1,75 @@
+path {
+    fill-opacity: 0;
+}
+
+path:hover {
+    fill: blue;
+    fill-opacity: 0.3;
+    transition: all 0.2s;
+}
+
+svg {
+    max-height: 700px;
+    min-height: 650px;
+}
+
+.outline {
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st4 {
+    font-family: 'ArialMT';
+    font-size: 18px;
+    fill-opacity: 0;
+}
+
+.avatar-padding {
+    padding-top: 20px;
+}
+
+.popover-section-head {
+    font-size: 130%;
+    color: grey;
+}
+
+.popover-btn-group {
+    margin: 5px;
+}
+
+.popover-btn-group label {
+    width: 55px;
+}
+
+.decrease-sens label {
+    width: 100px;
+}
+
+.sens-level-group {
+    margin-left: 120px;
+}
+
+.sensation-btn-group {
+    margin-left: 5px;
+}
+
+
+
+/*Buttons*/
+
+
+
+
+/*DERMATOME*/
+#c2:hover > text, #c3:hover > text, #c4:hover > text, #c5:hover > text, #c6:hover > text, #c7:hover > text, #c8:hover > text,
+#t1:hover > text, #t2:hover > text, #t3:hover > text, #t4:hover > text, #t5:hover > text, #t6:hover > text, #t7:hover > text, #t8:hover > text, #t9:hover > text, #t10:hover > text, #t11:hover > text, #t12:hover > text,
+#s2:hover > text, #s3:hover > text, #s4:hover > text,
+#l1:hover > text, #l2:hover > text, #l3:hover > text, #l4:hover > text, #l5:hover > text {
+    fill: blue;
+    fill-opacity: 1;
+    font-weight: bold;
+    font-size: 18px;
+}

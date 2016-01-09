@@ -1,0 +1,44 @@
+.annotated {
+    position: relative;
+    margin-top: 20px;
+}
+
+.annotated ul {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.annotated li {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.annotated img {
+    margin: auto;
+}
+
+.bkg-green {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    opacity:0.7;
+}
+
+.circle-md {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    position: absolute;
+}
+
+.circle-lg {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
